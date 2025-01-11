@@ -8,17 +8,17 @@
    -  `git clone git@github.com:IceMasterT/codeGPTAutoKnowledge.git`
 
 2.Create Directory in the Root Directory of the Application called PDF_DIRECTORY *(this is where you stick all your PDFs)* I did make a change to the code so you can specify any directory. So you don't need to make this. If you do when prompted for the PDF directory just put in `PDF_DIRECTORY`. Since it is in your root directory you don't need to add anything special. So your Directory looks like this,
-|
-L_PDF_DIRECTORY
-|    L--<PDFs>
-|
-L_myvenv 
-|    L--<myvenv-files>
-|
-L_README.md
-L_env.example
-L_requirment.txt
-L_uploadAgent.py
+- |
+- L_PDF_DIRECTORY
+- |    L--<PDFs>
+- |
+- L_myvenv 
+- |    L--<myvenv-files>
+- |
+- L_README.md
+- L_env.example
+- L_requirment.txt
+- L_uploadAgent.py
 
 
 3.Create your Virtual Enviroment
