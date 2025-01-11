@@ -8,7 +8,7 @@
    -  `git clone git@github.com:IceMasterT/codeGPTAutoKnowledge.git`
 
 2.Create Directory in the Root Directory of the Application called PDF_DIRECTORY *(this is where you stick all your PDFs)* I did make a change to the code so you can specify any directory. So you don't need to make this. If you do when prompted for the PDF directory just put in `PDF_DIRECTORY`. Since it is in your root directory you don't need to add anything special. So your Directory looks like this,
-/
+```/
 |-- PDF_DIRECTORY/
 |   |-- PDFs/             # Folder to store PDF files
 |
@@ -20,6 +20,7 @@
 |-- requirements.txt      # Python dependencies
 |-- uploadAgent.py        # Python script for uploading or processing
 |-- .gitignore            # Specifies intentionally untracked files to ignore
+```
 
 3.Create your Virtual Enviroment
 
