@@ -9,7 +9,7 @@
 3.Create your Virtual Enviroment
 
 `
-python -m venv twitter_bot_env
+python -m venv myvenv
 `
 
 Activate the virtual environment:
@@ -17,19 +17,19 @@ Activate the virtual environment:
  -On Windows:
 
 `
-venv\Scripts\activate
+myvenv\Scripts\activate
 `
 
 or
 
 `
-.\venv\Scripts\activate
+.\myvenv\Scripts\activate
 `
 
  -On macOS and Linux:
 
 `
-source venv/bin/activate
+source myvenv/bin/activate
 `
 
 4.Install all dependancies.
