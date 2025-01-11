@@ -16,7 +16,7 @@
 |   |-- myvenv-files/     # Files related to the virtual environment
 |
 |-- README.md             # Project description and instructions
-|-- .env.example          # Example environment variables file
+|-- .env.example          # Example environment variables file - rename this file to .env and add your info.
 |-- requirements.txt      # Python dependencies
 |-- uploadAgent.py        # Python script for uploading or processing
 |-- .gitignore            # Specifies intentionally untracked files to ignore
