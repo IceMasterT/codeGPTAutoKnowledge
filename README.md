@@ -53,10 +53,22 @@ urllib3==2.3.0
 
 5.Once you are all setup, load all PDF files into the PDF_directory you created in the Root App Directory.
 
-6.Then Fire it Up!
+6. find the env.example file and put in your info from CodeGPT. You'll only need your API and ORG ID. I previously had it so it set your pdf directory for you but since I changed it so you can specify any directory. It doesn't really matter. once you add you directory in it **Change the Name of the file to .env**. Changing the name of the file to **.env** tells the python script to keep this file secret and hidden from anyone as it connects to the API and uploads your files. 
+
+7.Then Fire it Up!
 
 `
-python uploadAgent.py
+python uploadAgent.py  
+`
+**or**
+`
+python3 uploadAgent.py
+`
+
 `
 
 **For whatever reason it wouldnt let me upload `.pdf` files but it would do `.txt` files. So the `.pfg` Files are converted to `.txt` files and then all uploaded to your Orginizations Agent Knowledge Directory. **
+
+
+
+**TODO: Add in Advanced Upload Options to generate Metadata and change the Chunk Size. Currently it just uses the default settings.**
