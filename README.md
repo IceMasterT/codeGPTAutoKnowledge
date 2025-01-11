@@ -39,7 +39,7 @@ source myvenv/bin/activate
 pip install -r requirement.txt
 `
 
-**If for whatever reason it doesnt work or is missing, these are the dependancies needed:**
+**If for whatever reason it doesnt work or is missing, these are the dependancies needs and they can be individually installed with `pip install <package name==number>`. just do down the list and install each one:**
 
 `
 certifi==2024.12.14
@@ -53,7 +53,7 @@ urllib3==2.3.0
 
 5.Once you are all setup, load all PDF files into the PDF_directory you created in the Root App Directory.
 
-6. find the env.example file and put in your info from CodeGPT. You'll only need your API and ORG ID. I previously had it so it set your pdf directory for you but since I changed it so you can specify any directory. It doesn't really matter. once you add you directory in it **Change the Name of the file to .env**. Changing the name of the file to **.env** tells the python script to keep this file secret and hidden from anyone as it connects to the API and uploads your files. 
+6.Find the env.example file and put in your info from CodeGPT. You'll only need your API and ORG ID. I previously had it so it set your pdf directory for you but since I changed it so you can specify any directory. It doesn't really matter. once you add you directory in it **Change the Name of the file to .env**. Changing the name of the file to **.env** tells the python script to keep this file secret and hidden from anyone as it connects to the API and uploads your files. 
 
 7.Then Fire it Up!
 
