@@ -1,7 +1,12 @@
+# Core HTTP & Network
 certifi==2024.12.14
 charset-normalizer==3.4.1
 idna==3.10
-PyPDF2==3.0.1
-python-dotenv==1.0.1
-requests==2.32.3
 urllib3==2.3.0
+requests==2.32.3
+
+# File Processing
+PyPDF2==3.0.1
+
+# Environment Management
+python-dotenv==1.0.1
