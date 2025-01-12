@@ -52,7 +52,7 @@ source myvenv/bin/activate
 
 
 `
-pip install -r requirement.txt
+pip install -r requirements.txt
 `
 
 **If for whatever reason it doesnt work or is missing, these are the dependancies needs and they can be individually installed with `pip install <package name==number>`. just do down the list and install each one:**
