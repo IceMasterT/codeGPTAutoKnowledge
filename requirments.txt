@@ -1,12 +1,20 @@
-# Core HTTP & Network
-certifi==2024.12.14
-charset-normalizer==3.4.1
-idna==3.10
-urllib3==2.3.0
-requests==2.32.3
+# 📜 Core Libraries
+six==1.17.0  # Utility library for Python 2 & 3 compatibility
 
-# File Processing
-PyPDF2==3.0.1
+# 📡 Networking & HTTP Requests
+requests==2.32.3  # HTTP library for making requests
+urllib3==2.3.0  # HTTP client for handling connections
+idna==3.10  # Internationalized Domain Names (IDN) support
+charset-normalizer==3.4.1  # Character encoding detection
 
-# Environment Management
-python-dotenv==1.0.1
+# 🔒 Security & Certificates
+certifi==2024.12.14  # SSL certificates for secure web requests
+
+# 📄 File Handling & PDFs
+PyPDF2==3.0.1  # Library for reading & manipulating PDFs
+
+# 🌍 Natural Language Processing
+langdetect==1.0.9  # Detects the language of text input
+
+# 🛠️ Environment & Configuration
+python-dotenv==1.0.1  # Loads environment variables from .env files
