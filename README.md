@@ -18,7 +18,7 @@
 |-- README.md             # Project description and instructions
 |-- .env.example          # Example environment variables file - rename this file to .env and add your info.
 |-- requirements.txt      # Python dependencies
-|-- uploadAgent.py        # Python script for uploading or processing
+|-- CodeGPT-Doc.py        # Python script for uploading, listing, delete, delete all, or edit metadata
 |-- .gitignore            # Specifies intentionally untracked files to ignore
 ```
 
@@ -61,9 +61,11 @@ pip install -r requirements.txt
 certifi==2024.12.14
 charset-normalizer==3.4.1
 idna==3.10
+langdetect==1.0.9
 PyPDF2==3.0.1
 python-dotenv==1.0.1
 requests==2.32.3
+six==1.17.0
 urllib3==2.3.0
 `
 
@@ -74,11 +76,11 @@ urllib3==2.3.0
 7.Then Fire it Up!
 
 `
-python uploadAgent.py  
+python CodeGPT-Doc.py   
 `
 **or**
 `
-python3 uploadAgent.py
+python3 CodeGPT-Doc.py 
 `
 
 `
